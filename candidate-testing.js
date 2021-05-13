@@ -48,13 +48,13 @@ function gradeQuiz(candidateAnswers) {
   let score = 0;
   let passFail = "";
   for (let i = 0; i < correctAnswers.length; i++) {
-    if(candidateAnswers[i] === correctAnswers[i].toLowerCase()) {
-    score++;
-    grade = ((score/questions.length)*100);
+    if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
+      score++;
+      grade = ((score/questions.length)*100);
      }
+
      if(grade >= 80) {
        passFail = "Pass";
-  
      } else {
        passFail = "FAILED";
      }
@@ -87,7 +87,7 @@ ${arrowsRight} Status: ${passFail} ${arrowsLeft}`);
 
   
 
-
+console.log({grade});
   return grade;
 }
 
