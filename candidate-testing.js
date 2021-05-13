@@ -64,19 +64,19 @@ console.log(`Candidate Name: ${candidateName}
 Your Answer: ${candidateAnswers[0]}
 Correct Answer: ${correctAnswers[0]}
 
-${questions[1]}
+2) ${questions[1]}
 Your Answer: ${candidateAnswers[1]}
 Correct Answer: ${correctAnswers[1]}
 
-${questions[1]}
+3) ${questions[1]}
 Your Answer: ${candidateAnswers[2]}
 Correct Answer: ${correctAnswers[2]}
 
-${questions[1]}
+4) ${questions[1]}
 Your Answer: ${candidateAnswers[3]}
 Correct Answer: ${correctAnswers[3]}
 
-${questions[1]}
+5) ${questions[1]}
 Your Answer: ${candidateAnswers[4]}
 Correct Answer: ${correctAnswers[4]}
 
