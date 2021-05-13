@@ -10,7 +10,7 @@ let correctAnswer = "Sally Ride";
 let candidateAnswer = "";
 let questionOne = "Who was the first American woman in space? ";
 let questionTwo = "True or false: 5 kilometer == 5000 meters? ";
-let questionThree = "(5+3)/2*10=? ";
+let questionThree = "(5 + 3)/2 * 10 = ? ";
 let questionFour = "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ";
 let questionFive = "What is the minimum crew size for the ISS? "
 let questions = [questionOne, questionTwo, questionThree, questionFour, questionFive];
@@ -68,15 +68,15 @@ Correct Answer: ${correctAnswers[0]}
 Your Answer: ${candidateAnswers[1]}
 Correct Answer: ${correctAnswers[1]}
 
-3) ${questions[1]}
+3) ${questions[2]}
 Your Answer: ${candidateAnswers[2]}
 Correct Answer: ${correctAnswers[2]}
 
-4) ${questions[1]}
+4) ${questions[3]}
 Your Answer: ${candidateAnswers[3]}
 Correct Answer: ${correctAnswers[3]}
 
-5) ${questions[1]}
+5) ${questions[4]}
 Your Answer: ${candidateAnswers[4]}
 Correct Answer: ${correctAnswers[4]}
 
