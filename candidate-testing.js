@@ -8,11 +8,11 @@ let candidateName = "";
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
 let candidateAnswer = "";
-let questionOne = "Who was the first American woman in space?";
-let questionTwo = "True or false: 5 kilometer == 5000 meters?";
-let questionThree = "(5+3)/2*10=?";
-let questionFour = "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?";
-let questionFive = "What is the minimum crew size for the ISS?"
+let questionOne = "Who was the first American woman in space? ";
+let questionTwo = "True or false: 5 kilometer == 5000 meters? ";
+let questionThree = "(5+3)/2*10=? ";
+let questionFour = "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ";
+let questionFive = "What is the minimum crew size for the ISS? "
 let questions = [questionOne, questionTwo, questionThree, questionFour, questionFive];
 let answerOne = "Sally Ride";
 let answerTwo = "true";
