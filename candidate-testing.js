@@ -36,7 +36,8 @@ function askQuestion(answerOne) {
   
     for (let i = 0; i < questions.length; i++) {
       console.log(questions[i]);
-      candidateAnswers.push(input.question("Answer here: ").toLowerCase());  
+      candidateAnswers.push(input.question("Answer here: ").toLowerCase());
+      console.log(candidateAnswers);  
     }
 }
 
@@ -49,7 +50,7 @@ function gradeQuiz(candidateAnswers) {
   for (let i = 0; i < correctAnswers.length; i++) {
     if(candidateAnswers[i] === correctAnswers[i].toLowerCase()) {
     score++;
-    grade = (score/questions.length*100);
+    grade = ((score/questions.length)*100);
      }
      if(grade >= 80) {
        passFail = "Pass";
