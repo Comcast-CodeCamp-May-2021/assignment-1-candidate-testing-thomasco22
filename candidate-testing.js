@@ -49,7 +49,7 @@ function gradeQuiz(candidateAnswers) {
   for (let i = 0; i < correctAnswers.length; i++) {
     if(candidateAnswers[i] === correctAnswers[i].toLowerCase()) {
     score++;
-    grade = (score/questions.length*100+"%");
+    grade = (score/questions.length*100);
      }
      if(grade >= 80) {
        passFail = "Pass";
@@ -80,7 +80,7 @@ Correct Answer: ${correctAnswers[3]}
 Your Answer: ${candidateAnswers[4]}
 Correct Answer: ${correctAnswers[4]}
 
-${arrowsRight} Overall Grade: ${grade} (${score} of ${questions.length} responses correct) ${arrowsLeft}
+${arrowsRight} Overall Grade: ${grade}% (${score} of ${questions.length} responses correct) ${arrowsLeft}
 ${arrowsRight} Status: ${passFail} ${arrowsLeft}`);
 
 
